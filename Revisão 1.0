@@ -1,0 +1,6 @@
+a=int(input("Digite um valor: "))
+resultado=a*2
+if(resultado>30):
+    print("O resultado é: {}".format(resultado))
+else:
+    print("Resultado inválido")
