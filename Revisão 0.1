@@ -1,0 +1,19 @@
+q=0
+while (q==0):
+    n1=float(input("Digite a primeira nota: "))
+    n2=float(input("Digite a segunda nota: "))
+    n3=float(input("Digite a terceira nota: "))
+    n4=float(input("Digite a quarta nota: "))
+    
+    resultado=n1+n2+n3+n4
+    md1=resultado/4
+
+    if(md1>=7):
+        print("\nAluno aprovado com {} de média\n".format(media1))
+    if(md1!=7):
+        md2=float(input("\nDigite a nota de exame: "))
+    ne=(md2+md1)/2
+    if (ne>=5):
+        print("Aluno aprovado com média de {} pontos.\n".format(ne))
+    elif (ne!=5):
+        print("Aluno reprovado com média de {} pontos\n".format(ne))
