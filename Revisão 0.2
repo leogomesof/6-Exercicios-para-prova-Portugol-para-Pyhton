@@ -1,0 +1,16 @@
+a=float(input("Digite o valor para A: "))
+b=float(input("Digite o valor para B: "))
+c=float(input("Digite o valor para C: "))
+d=((b**2)-(4*a*c))
+if (d<0):
+ print("\nNão há solução real")
+elif (d>0):
+    r1=-b+(d**(1/2))
+    x1=r1/(2*a)
+    r2=-b-(d**(1/2))
+    x2=r2/(2*a)
+    print("\nHá duas soluções reais\nX1:{} e X2:{}".format(x1,x2))
+elif (d==0):
+    r1=-b+(d**(1 / 2))
+    x1=r1/(2*a)
+    print("\nHá uma solução\nX1:{} e X2{}".format(x1,x1))
